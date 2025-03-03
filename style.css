@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Moon+Dance&display=swap');
+
+body{
+    background: linear-gradient(145deg,#4D1C34,#781746,#CD6B9A)fixed;
+}
+main{
+    height: 96vh;
+    position: relative;
+}
+main article{
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.582);
+    height: 300px;
+    width: 300px;
+    font-family: moon dance,sans-serif;
+    background-color: #CD6B9A;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    
+}
+main div{
+    display: inline;
+}
+main h1{
+    font-size: 220%;
+ 
+}
+main span{
+    font-size: 200%;
+    transition-duration:0.2s;
+}
+main span:hover{
+    font-size: 250%;
+}
+main a{
+    color: #290818;
+    font-size: 150%;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+main a:hover{
+    color: white;
+    background-color:#290818;
+    border-radius: 20px;
+}

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Moon+Dance&display=swap');
+
+
+body{
+    background: linear-gradient(145deg,#4D1C34,#781746,#CD6B9A)fixed;
+}
+main{
+    background-color: #4D1C34;
+    margin: auto;
+    max-width: 1220px;
+    border-radius: 20px 5px;
+    box-shadow:0px 0px 20px 5px rgba(0, 0, 0, 0.466);
+}
+h1{
+    font-family: moon dance,sans-serif;
+    text-align: center;
+    background-color: #CD6B9A;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.418);
+}
+section{
+    display:inline-block;
+    margin:auto;
+    padding: 20px 0px 0px 50px;
+    min-width: auto;
+}
+p{
+    text-align: center;
+    font-family: moon dance,sans-serif;
+    font-size: 200%;
+}
+abbr{
+    text-decoration: none;
+    text-align: center;
+}
+div.quadrado{
+    display: inline-block;           
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 10px 20px 0px 20px;
+    width:300px;
+    height: 300px;
+}
+div#q1{
+    background-color: #4D1C34;
+    background-image: url('midia/aula-saudade.jpg');
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+div#q2{
+    background-color: #4D1C34;
+    background-image: url('midia/ela-sem-me-beijar.jpg');
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition-duration: 0.2s;
+}
+div#q2:hover{
+    background-color: #4D1C34;
+    background-image: url('midia/ela-me-beijando.jpg');
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+div#q3{
+    background-color: #4D1C34;
+    background-image: url('midia/sem-ela.jpg');
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition-duration:0.3s;
+}
+div#q3:hover{
+    background-color: #4D1C34;
+    background-image: url('midia/com-ela.jpg');
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+section:hover p#p1{
+    display: none;
+}
+section.especial:hover:before{
+    display: block;
+    text-align: center;
+    content: "Eu com você";
+    font-family: moon dance,sans-serif;
+    font-size: 200%;
+}
+footer{
+text-align: center;
+background-color: antiquewhite;
+border-radius: 10px 0px;
+}
