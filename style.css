@@ -1,6 +1,29 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Moon+Dance&display=swap');
 
+@keyframes inicio2 {
+    from{right:-1500px;}
+    to{right: 0px;}
+}
+@keyframes inicio {
+    from{left:-1500px;}
+    to{left: 0px;}
+}
+@keyframes blink {
+    50%{
+        color: #ff0000b9;
+        opacity: 80%;
+    }  
+}
+@keyframes inicio3 {
+    from{top:-1500px;}
+    to{top: 0px;}
+}
+@keyframes beat {
+    0%{font-size: 200%;}
+    50%{font-size: 208%;}
+    100%{font-size: 200%;}
+}
 body{
     background: linear-gradient(145deg,#4D1C34,#781746,#CD6B9A)fixed;
 }
@@ -31,6 +54,8 @@ main h1{
 }
 main span{
     font-size: 200%;
+    position: relative;
+    animation: inicio3 1s normal ,beat 1.5s 3 ease-out;
     transition-duration:0.2s;
 }
 main span:hover{
@@ -46,4 +71,15 @@ main a:hover{
     color: white;
     background-color:#290818;
     border-radius: 20px;
+}
+.ian{
+    position: relative;
+    animation: inicio 1s normal;
+}
+.ana{
+    position: relative;
+    animation: inicio2 1s normal;
+}
+a{
+    animation: blink 1.5s step-start 1.4s infinite;
 }
