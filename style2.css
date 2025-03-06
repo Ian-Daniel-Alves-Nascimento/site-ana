@@ -4,11 +4,13 @@
 
 body{
     background: linear-gradient(145deg,#4D1C34,#781746,#CD6B9A)fixed;
+    min-width: 450px;
 }
 main{
     background-color: #4D1C34;
     margin: auto;
     max-width: 1220px;
+    min-width: 450px;
     border-radius: 20px 5px;
     box-shadow:0px 0px 20px 5px rgba(0, 0, 0, 0.466);
 }
@@ -18,6 +20,10 @@ h1{
     background-color: #CD6B9A;
     border-radius: 20px;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.418);
+    padding-left: 15px;
+}
+article{
+    margin-right: 20px;
 }
 section{
     display:inline-block;
